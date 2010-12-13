@@ -1,0 +1,14 @@
+# 定义SideBar的文件
+zh-cn:
+  staff_bar:
+  - staff_group
+  # 用于系统模块的group
+  admin_bar:
+  -  business_group
+  -  config_group
+  -  security_group
+  leader_bar:
+  -  leader_audit_group
+  -  leader_group
+  help_bar:
+  -  help_group

@@ -1,0 +1,128 @@
+# 定义链接组的文件
+zh-cn:
+  # 主菜单
+  global_menu:
+    label: —全局菜单—
+    links:
+    - name: staff_menu
+      label: 个人事务
+      href: /efforts
+      description: 所有员工入口
+    - name: pjm_menu
+      label: 项目经理
+      href: /project_manager/efforts
+      description: 项目经理入口
+    - name: leader_menu
+      label: 领导入口
+      href: /department/efforts
+      description: 管理人员入口
+    - name: admin_menu
+      label: 系统管理
+      href: /admin/staffs
+      description: 行政人员入口
+    - name: help_menu
+      label: 帮助与说明
+      href: /help
+      description: 系统帮助信息
+
+  business_group:
+    label: 业务支撑
+    css: bulletin
+    links:
+    - name: staffs_link
+      label: 员工管理
+      href: /admin/staffs
+    - name: projects_link
+      label: 项目管理
+      href: /admin/projects
+    - name: efforts_link
+      label: 日报浏览
+      href: /admin/efforts
+   
+  config_group:
+    label: 系统管理
+    css: setting
+    links:
+    - name: tasks_link
+      label: 任务管理
+      href: /admin/common_tasks
+
+    - name: effort_emails_link
+      label: 邮件浏览
+      href: /admin/effort_emails
+
+  security_group:
+    label: 安全管理
+    css: security
+    links:
+    - name: sessions_link
+      css: session
+      label: 浏览会话
+      href: /admin/sessions
+    - name: job_logs_link
+      css: log
+      label: 任务日志
+      href: /admin/job_logs
+
+  leader_audit_group:
+    label: 部门日报审计
+    css: pay
+    links:
+    - name: audit_efforts_link
+      label: 日报审计
+      href: /department/efforts
+
+  leader_group:
+    label: 日报统计
+    css: report
+    links:
+    - name: all_efforts_link
+      label: 日报记录汇总
+      href: /leader/efforts.html
+    - name: lack_efforts_link
+      label: 缺失日报统计
+      href: /leader/efforts/lacks
+    - name: rejected_efforts_link
+      label: 被拒绝日报统计
+      href: /leader/efforts/rejects
+    - name: not_audit_efforts_link
+      label: 未审核日报统计
+      href: /leader/efforts/not_audits
+
+
+  staff_group:
+    label: 个人日报
+    css: order
+    links:
+    - name: efforts_link
+      label: 个人日报
+      href: /efforts
+    - name: other_efforts_link
+      label: 他人日报
+      href: /efforts/others
+    - name: projects_link
+      label: 浏览项目
+      href: /projects
+    - name: lacks_efforts_link
+      label: 缺失日报统计
+      href: /efforts/lacks
+  
+  help_group:
+    label: 系统帮助
+    css: comment
+    links:
+    - name: faq_help_link
+      label: 常见问题
+      href: /help#faq
+    - name: staff_help_link
+      label: 开发人员说明
+      href: /help#staff
+    - name: pjm_help_link
+      label: 项目经理说明
+      href: /help#pjm
+    - name: leader_help_link
+      label: 领导使用说明
+      href: /help#leader
+    - name: admin_help_link
+      label: 行政人员说明
+      href: /help#admin
