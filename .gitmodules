@@ -1,0 +1,9 @@
+[submodule "vendor/plugins/rails_support"]
+	path = vendor/plugins/rails_support
+	url = git@github.com:Kadvin/rails_support.git
+[submodule "vendor/plugins/app_frame"]
+	path = vendor/plugins/app_frame
+	url = git@github.com:Kadvin/app_frame.git
+[submodule "vendor/plugins/basic_skin"]
+	path = vendor/plugins/basic_skin
+	url = git@github.com:Kadvin/basic_skin.git
