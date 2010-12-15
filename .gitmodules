@@ -8,7 +8,5 @@
 	path = vendor/plugins/basic_skin
 	url = ../basic_skin.git
 [submodule "vendor/plugins/app_table"]
-
 	path = vendor/plugins/app_table
-
 	url = ../app_table.git
