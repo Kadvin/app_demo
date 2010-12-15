@@ -1,12 +1,14 @@
 [submodule "vendor/plugins/rails_support"]
 	path = vendor/plugins/rails_support
-	url = ./rails_support.git
+	url = ../rails_support.git
 [submodule "vendor/plugins/app_frame"]
 	path = vendor/plugins/app_frame
-	url = ./app_frame.git
+	url = ../app_frame.git
 [submodule "vendor/plugins/basic_skin"]
 	path = vendor/plugins/basic_skin
-	url = http://github.com/Kadvin/basic_skin.git
+	url = ../basic_skin.git
 [submodule "vendor/plugins/app_table"]
+
 	path = vendor/plugins/app_table
+
 	url = ../app_table.git
