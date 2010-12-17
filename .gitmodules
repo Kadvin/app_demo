@@ -9,4 +9,8 @@
 	url = ../basic_skin.git
 [submodule "vendor/plugins/app_table"]
 	path = vendor/plugins/app_table
+
 	url = ../app_table.git
+[submodule "vendor\\plugins\\will_paginate"]
+	path = vendor\\plugins\\will_paginate
+	url = git://github.com/mislav/will_paginate.git

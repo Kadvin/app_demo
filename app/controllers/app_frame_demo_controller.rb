@@ -1,4 +1,4 @@
-class DemoController < ApplicationController
+class AppFrameDemoController < ApplicationController
 
   customize(:all) do |ctx|
     ctx.selected_menu = :staff_menu
