@@ -4,9 +4,6 @@
 [submodule "vendor/plugins/app_frame"]
 	path = vendor/plugins/app_frame
 	url = ../app_frame.git
-[submodule "vendor/plugins/basic_skin"]
-	path = vendor/plugins/basic_skin
-	url = ../basic_skin.git
 [submodule "vendor/plugins/app_table"]
 	path = vendor/plugins/app_table
 	url = ../app_table.git
@@ -19,3 +16,6 @@
 [submodule "vendor/plugins/paginate_table_skin"]
 	path = vendor/plugins/paginate_table_skin
 	url = ../paginate_table_skin.git
+[submodule "vendor/plugins/basic_frame_skin"]
+	path = vendor/plugins/basic_frame_skin
+	url = ../basic_frame_skin.git
