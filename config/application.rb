@@ -17,7 +17,9 @@ module AppDemo
 
     # Only load the plugins named here, in the order given (default is alphabetical).
     # :all can be used as a placeholder for all plugins not explicitly named.
-    config.plugins = [ :rails_support, :app_frame, :all ]
+    config.plugins = [ :rails_support, :app_frame, 
+                        :endless_table_skin, :paginate_table_skin, :app_table,
+                        :all ]
 
     # Activate observers that should always be running.
     # config.active_record.observers = :cacher, :garbage_collector, :forum_observer

@@ -1,7 +1,11 @@
+Thumbs.db
 .bundle
 db/*.sqlite3
 log/*.log
 tmp/**/*
 public/stylesheets/basic.css
 public/images/basic/*
+public/javascripts/endless.js
+public/stylesheets/endless.css
+public/images/endless
 nbproject

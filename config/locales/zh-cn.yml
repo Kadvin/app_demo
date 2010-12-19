@@ -1,0 +1,17 @@
+zh-cn:
+  app:
+    title: Application Demo
+  activerecord:
+    actions: # 全局的动作信息
+      index: 浏览
+      list: 浏览
+      table: 浏览
+      new: 新建
+      show: 查看
+      edit: 编辑
+      search: 搜索
+      create: 创建
+      update: 更新
+      destroy: 删除
+      delete: 删除
+      refresh: 刷新
