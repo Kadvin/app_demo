@@ -18,4 +18,4 @@
 	url = ../basic_frame_skin.git
 [submodule "vendor/plugins/will_paginate"]
 	path = vendor/plugins/will_paginate
-	url = git://github.com/37signals/will_paginate.git
+	url = ../will_paginate.git
