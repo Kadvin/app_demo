@@ -1,4 +1,5 @@
 Thumbs.db
+public/images/Thumbs.db
 .bundle
 db/*.sqlite3
 log/*.log
@@ -8,4 +9,7 @@ public/images/basic/*
 public/javascripts/endless.js
 public/stylesheets/endless.css
 public/images/endless
+public/javascripts/paginate.js
+public/stylesheets/paginate.css
+public/images/paginate
 nbproject
