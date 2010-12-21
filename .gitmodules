@@ -19,3 +19,6 @@
 [submodule "vendor/plugins/will_paginate"]
 	path = vendor/plugins/will_paginate
 	url = ../will_paginate.git
+[submodule "vendor/plugins/ar_comment"]
+	path = vendor/plugins/ar_comment
+	url = ../ar_comment.git
