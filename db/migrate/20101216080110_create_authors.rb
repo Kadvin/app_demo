@@ -1,7 +1,7 @@
 class CreateAuthors < ActiveRecord::Migration
   def self.up
-    create_table :authors do |t|
-      t.string :name
+    create_table :authors, :comment => "作者" do |t|
+      t.string :name, :comment => "姓名"
 
       t.timestamps
     end

@@ -32,3 +32,5 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 # gem 'app_frame', :path => '../app_frame'
 
 gem 'rspec-rails'
+
+gem 'mysql'

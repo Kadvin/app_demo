@@ -1,8 +1,8 @@
 zh-cn:
   app:
     title: Application Demo
-  activerecord:
-    actions: # 全局的动作信息
+
+  actions: # 全局的动作信息
       index: 浏览
       list: 浏览
       table: 浏览
@@ -15,6 +15,7 @@ zh-cn:
       destroy: 删除
       delete: 删除
       refresh: 刷新
+
   date:
     formats:
       default: "%Y-%m-%d"
@@ -115,3 +116,33 @@ zh-cn:
     array:
       words_connector: ", "
       two_words_connector: " 和 "
+
+  errors: # 错误信息
+    # The default format to use in full error messages.
+    format: "%{attribute} %{message}"
+    messages: # 全局错误信息
+      inclusion: 没有包含在列表中
+      exclusion: 被保留的!
+      invalid: 是无效的!
+      confirmation: 两次确认信息不一致
+      accepted: 不可接受
+      empty: 不能为空!
+      blank: 不能为空!
+      too_long: 太长(最长为{{count}}个字符)
+      too_short: 太短(最短为{{count}}个字符)
+      wrong_length: 长度有误(应该为{{count}}个字符)
+      taken: 已经被占用
+      not_a_number: 不是一个数字
+      greater_than: 必须大于{{count}}
+      greater_than_or_equal_to: 必须大于等于{{count}}
+      equal_to: 必须等于{{count}}
+      less_than: 必须小于{{count}}
+      less_than_or_equal_to: 必须小于等于{{count}}
+      odd: 必须是奇数
+      even: 必须是偶数
+      invalid_email: 不是一个有效的Email地址
+      invalid_phone: 不是一个有效的手机号码
+      invalid_mac: 不是一个有效的MAC地址!
+      invalid_criteria: 不是一个有效的查询表达式！
+      invalid_reference: 不是一个有效的对象引用!
+      invalid_references: 含有无效的对象引用!

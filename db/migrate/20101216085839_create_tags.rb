@@ -1,7 +1,7 @@
 class CreateTags < ActiveRecord::Migration
   def self.up
-    create_table :tags do |t|
-      t.string :name
+    create_table :tags, :comment => "标签" do |t|
+      t.string :name, :comment => "名称"
 
       t.timestamps
     end
