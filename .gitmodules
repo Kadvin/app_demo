@@ -25,3 +25,6 @@
 [submodule "vendor/plugins/acts_as_enum"]
 	path = vendor/plugins/acts_as_enum
 	url = ../acts_as_enum.git
+[submodule "vendor/plugins/app_settings"]
+	path = vendor/plugins/app_settings
+	url = ../app_settings.git

@@ -12,40 +12,48 @@
 
 ActiveRecord::Schema.define(:version => 20101216085948) do
 
-  create_table "authors", :force => true, :comment => '作者' do |t|
-    t.string   "name",       :comment => "姓名"
-    t.datetime "created_at", :comment => "创建时间"
-    t.datetime "updated_at", :comment => "更新时间"
+  create_table "authors", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
-  create_table "posts", :force => true, :comment => '回帖' do |t|
-    t.integer  "topic_id",   :comment => "主帖"
-    t.integer  "author_id",  :comment => "作者"
-    t.string   "content",    :comment => "内容"
-    t.datetime "created_at", :comment => "创建时间"
-    t.datetime "updated_at", :comment => "更新时间"
+  create_table "posts", :force => true do |t|
+    t.integer  "topic_id"
+    t.integer  "author_id"
+    t.string   "content"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
-  create_table "tags", :force => true, :comment => '标签' do |t|
-    t.string   "name",       :comment => "名称"
-    t.datetime "created_at", :comment => "创建时间"
-    t.datetime "updated_at", :comment => "更新时间"
+  create_table "settings", :force => true do |t|
+    t.string "key",         :default => "", :null => false
+    t.string "value",       :default => ""
+    t.string "description"
   end
 
-  create_table "topic_tags", :force => true, :comment => '主题标签' do |t|
-    t.integer  "topic_id",   :comment => "主题帖"
-    t.integer  "tag_id",     :comment => "标签"
-    t.datetime "created_at", :comment => "创建时间"
-    t.datetime "updated_at", :comment => "更新时间"
+  add_index "settings", ["key"], :name => "index_settings_on_key", :unique => true
+
+  create_table "tags", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
-  create_table "topics", :force => true, :comment => '主题帖' do |t|
-    t.string   "subject",     :comment => "标题"
-    t.integer  "clicks",      :comment => "点击数"
-    t.integer  "posts_count", :comment => "回帖数"
-    t.string   "state",       :comment => "状态"
-    t.datetime "created_at",  :comment => "创建时间"
-    t.datetime "updated_at",  :comment => "更新时间"
+  create_table "topic_tags", :force => true do |t|
+    t.integer  "topic_id"
+    t.integer  "tag_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "topics", :force => true do |t|
+    t.string   "subject"
+    t.integer  "clicks"
+    t.integer  "posts_count"
+    t.string   "state"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
 end
