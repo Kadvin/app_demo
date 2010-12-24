@@ -3,21 +3,16 @@ defaults: &defaults
   encoding: utf8
   username: root
   password: root
-  database: ba_dev
-  # database: 192.168.55.132/test
-  # host: ORACLE_TEST
+  database: app_demo
 
 development:
   <<: *defaults
-  database: ba_dev
 
 # Warning: The database defined as 'test' will be erased and
 # re-generated from your development database when you run 'rake'.
 # Do not set this db to the same as development or production.
 test:
   <<: *defaults
-  database: ba_test
 
 production:
   <<: *defaults
-  database: ba_prod
